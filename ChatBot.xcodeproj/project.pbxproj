@@ -12,7 +12,6 @@
 		6BE0987B1EF6184200707FB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BE0987A1EF6184200707FB0 /* Assets.xcassets */; };
 		6BE0987E1EF6184200707FB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BE0987C1EF6184200707FB0 /* LaunchScreen.storyboard */; };
 		6BF0FF361EF61E4C003C7A40 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0FF351EF61E4C003C7A40 /* ChatViewController.swift */; };
-		6BF0FF381EF6207C003C7A40 /* Conversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0FF371EF6207C003C7A40 /* Conversation.swift */; };
 		BB10684A2482560427BFEDF6 /* Pods_ChatBot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 197EACD3B40C3BFDCD2C02AF /* Pods_ChatBot.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,7 +24,6 @@
 		6BE0987D1EF6184200707FB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6BE0987F1EF6184200707FB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6BF0FF351EF61E4C003C7A40 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
-		6BF0FF371EF6207C003C7A40 /* Conversation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conversation.swift; sourceTree = "<group>"; };
 		CCB050EF893F2430E3B1C46A /* Pods-ChatBot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatBot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatBot/Pods-ChatBot.debug.xcconfig"; sourceTree = "<group>"; };
 		D1CBE9D08D6BB25AD2C71DEB /* Pods-ChatBot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatBot.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatBot/Pods-ChatBot.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,7 +67,6 @@
 				6BE0987A1EF6184200707FB0 /* Assets.xcassets */,
 				6BE0987C1EF6184200707FB0 /* LaunchScreen.storyboard */,
 				6BE0987F1EF6184200707FB0 /* Info.plist */,
-				6BF0FF371EF6207C003C7A40 /* Conversation.swift */,
 			);
 			path = ChatBot;
 			sourceTree = "<group>";
@@ -215,7 +212,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BF0FF381EF6207C003C7A40 /* Conversation.swift in Sources */,
 				6BF0FF361EF61E4C003C7A40 /* ChatViewController.swift in Sources */,
 				6BE098741EF6184200707FB0 /* AppDelegate.swift in Sources */,
 			);
