@@ -7,4 +7,5 @@ target 'ChatBot' do
 
   # Pods for ChatBot
   pod 'JSQMessagesViewController'
+  pod 'AWSLex'
 end

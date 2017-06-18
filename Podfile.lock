@@ -1,15 +1,21 @@
 PODS:
+  - AWSCore (2.5.8)
+  - AWSLex (2.5.8):
+    - AWSCore (= 2.5.8)
   - JSQMessagesViewController (7.3.4):
     - JSQSystemSoundPlayer (~> 2.0.1)
   - JSQSystemSoundPlayer (2.0.1)
 
 DEPENDENCIES:
+  - AWSLex
   - JSQMessagesViewController
 
 SPEC CHECKSUMS:
+  AWSCore: cf101c44d2cc5da32abc27d5529cddc63c010415
+  AWSLex: d8b18608c1076be34034e52f69052a16acce9172
   JSQMessagesViewController: 39fed975e3c9f8eba7292071e29eeb541d105e66
   JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
 
-PODFILE CHECKSUM: 1225a5efb570bea6b6a0cdaa8e1b13feb919781f
+PODFILE CHECKSUM: 3b01909542de9be0de08d25e16c605ac2fb39c40
 
 COCOAPODS: 1.2.1
