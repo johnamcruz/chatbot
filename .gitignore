@@ -67,4 +67,4 @@ fastlane/screenshots
 fastlane/test_output
 
 # ignore Info.plist so any app specific info is not checked-in
-chatbot/Info.plist
+*/Info.plist
