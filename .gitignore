@@ -65,3 +65,6 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
+
+# ignore Info.plist so any app specific info is not checked-in
+*Info.plist
